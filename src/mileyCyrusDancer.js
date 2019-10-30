@@ -9,5 +9,4 @@ addMiley.prototype.constructor = addMiley;
 addMiley.prototype.step = function() {
   makeDancer.prototype.step.call(this);
   this.$node.addClass('miley');
-  // this.$node.toggle();
 };
